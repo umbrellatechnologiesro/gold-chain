@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "secure-remote-password": "^0.3.1"
+  }
+}
