@@ -25,7 +25,7 @@ Running foundryup will automatically install the latest stable version of the pr
 
 In order to use the contract you need to install some requirements:
 
-npm install @openzeppelin/contracts
+forge install OpenZeppelin/openzeppelin-contracts
 
 forge install foundry-rs/forge-std
 
