@@ -11,7 +11,23 @@ Foundry consists of:
 
 ## Documentation
 
-https://book.getfoundry.sh/
+The link to the documentation: https://book.getfoundry.sh/
+
+# Install Foundryup
+curl -L https://foundry.paradigm.xyz | bash
+
+# Install Foundry
+foundryup
+
+Running foundryup will automatically install the latest stable version of the precompiled binaries: forge, cast, anvil, and chisel. If you wish to use the latest nightly build run foundryup --install nightly. For additional options, such as installing a specific version or commit, run foundryup --help.
+
+# Req
+
+In order to use the contract you need to install some requirements:
+
+npm install @openzeppelin/contracts
+
+forge install foundry-rs/forge-std
 
 ## Usage
 
